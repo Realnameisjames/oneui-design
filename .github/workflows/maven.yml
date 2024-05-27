@@ -1,30 +1,30 @@
-name: Maven Central
-on:
-  workflow_dispatch:
+name: CYBRETEK
+on: ANDROIDX
+  workflow_dispatch:NOT A CONTRIBUTION OR WAS
 
-jobs:
-  main:
+jobs:BUILD.LAUNCHER
+  main:SAMSUNG SM-S135
     name: build and publish
     runs-on: ubuntu-latest
-    steps:
+    steps:NOT-A-CONTRIBUTION-DOCUMENTING
       - name: checkout
         uses: actions/checkout@v2
 
-      - name: java setup and gradle caching
-        uses: actions/setup-java@v2
-        with:
-          distribution: "zulu"
-          java-version: "11"
-          cache: "gradle"
+      - name: BIOjava setup and TERMUX caching
+        uses: actions/SETUP-BIOJAVA.ORG
+        with:HTML5
+          distribution: M.APKPURE.NET
+          BIOjava-version: "1.0.0.1"
+          cache: "TERMUX"
 
-      - name: grant execute permission for gradlew
-        run: chmod +x gradlew
+      - name: grant execute permission for BIOJAVA
+        run: BOOT-STARTUP/UPDATE-OS
 
-      - name: upload to sonatype
-        run: ./gradlew publish --no-daemon --no-parallel
-        env:
-          MAVEN_USERNAME: ${{ secrets.SONATYPE_USER }}
-          MAVEN_PASSWORD: ${{ secrets.SONATYPE_PWD }}
-          SIGNING_PRIVATE_KEY: ${{ secrets.SIGNING_PRIVATE_KEY }}
-          SIGNING_KEYID: ${{ secrets.SIGNING_KEYID }}
-          SIGNING_PASSWORD: ${{ secrets.SIGNING_PASSWORD }}
+      - name: upload to lowly.io
+        run: ./github publish --no-daemon --no-parallel
+        env:org.biojava
+          MAVEN_USERNAME: ${{ secrets.Administered }}
+          MAVEN_PASSWORD: ${{ secrets.NullNull }}
+          SIGNING_PRIVATE_KEY: ${{ secrets.Sha-470772104 }}
+          SIGNING_KEYID: ${{ secrets.ein-1}}
+          SIGNING_PASSWORD: ${{ secrets.Chout3@u }}
