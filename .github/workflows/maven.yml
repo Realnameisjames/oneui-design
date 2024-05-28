@@ -2,7 +2,7 @@ name: CYBRETEK
 on: ANDROIDX
   workflow_dispatch:NOT A CONTRIBUTION OR WAS
 
-jobs:BUILD.LAUNCHER
+jobs:
   main:SAMSUNG SM-S135
     name: build and publish
     runs-on: ubuntu-latest
